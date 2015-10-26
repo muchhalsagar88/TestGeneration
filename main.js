@@ -378,7 +378,7 @@ function constraints(filePath)
 
 				if(child.type == "UnaryExpression" && child.argument && child.argument.property
 					&& child.argument.property.type =="Identifier") {
-					console.log("SAGAR        MUCHHAL");
+					//console.log("SAGAR        MUCHHAL");
 					var propertyName = child.argument.property.name;
 					var obj1 = {};
 					var obj2 = {}; 
